@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Guardian-Registration</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200;400&family=Rubik&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+
+    <div class="container-fluid bg-dark">
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav">
+          <a href="MainPage.html" class="nav-item nav-link active">Home</a>
+        </div>
+      </div>
+    </div>
+
+  </nav>
+
+  <form action="/action_page.php" class="border border-secondary p-4">
+    <div class="container">
+      <h1 class="text-danger text-center">Talk to us Now!</h1>
+      <p class="text-center">Please fill these form to send us a message.</p>
+      <hr>
+      <p id="GD" class="text-primary">Talk to us</p>
+      <div class="form-group ">
+        <label for="guardian_name rounded-pill"><b>Full Names</b></label>
+        <input type="text" class="form-control" placeholder="Enter Name" name="guardian_name" required>
+      </div>
+
+      <div class="form-group mb-2">
+        <label for="email"><b>Email Address</b></label>
+        <input type="text" class="form-control" placeholder="Enter email" name="email" required>
+        <br>
+      </div>
+
+      <div class="form- mb-4">
+        <label for="country_name" required><b>Country</b></label>
+        <select class="form-conrol rounded" id="country" name="_name">
+          <option value="australia"></option>
+          <option value="australia"> Afghanistan</option>
+          <option value="canada">Albania</option>
+          <option value="usa">Algeria</option>
+          <option value="usa">Andorra</option>
+          <option value="usa">Angola</option>
+          <option value="usa">Antigua and Barbuda</option>
+          <option value="usa">Argentina</option>
+          <option value="usa">Armenia</option>
+          <option value="usa">Australia</option>
+          <option value="usa">Austria</option>
+          <option value="usa">Azerbaijan</option>
+          <option value="usa">Azerbaijan</option>
+          <option value="usa">Bahrain</option>
+          <option value="usa">Bangladesh</option>
+          <option value="usa">Barbados</option>
+          <option value="usa">Belarus</option>
+          <option value="usa">Belgium</option>
+          <option value="usa">Belize</option>
+          <option value="usa">Benin</option>
+          <option value="usa">Bhutan</option>
+          <option value="usa">Bolivia</option>
+          <option value="usa">Bosnia and Herzegovina</option>
+          <option value="usa">Botswana</option>
+          <option value="usa">Brazil</option>
+          <option value="usa">Brunei</option>
+        </select>
+      </div>
+
+      <h5>Message</h5>
+      </textarea>
+      <textarea id="Subject" class="form-control" placeholder="Write Something..." required></textarea>
+
+      <p>By sending us a message you are agreeing to our <a href="#" class="text-primary">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="submit" class="btn btn-success rounded-pill">Send</button>
+      </div>
+    </div>
+  </form>
+  
+
+</body>
+
+</html>
